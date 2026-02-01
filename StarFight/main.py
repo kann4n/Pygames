@@ -16,8 +16,8 @@ YELLOW_HIT = pygame.USEREVENT + 1
 RED_HIT = pygame.USEREVENT + 2
 
 # sound effects
-BULLETS_HIT_SOUND = pygame.mixer.Sound(os.path.join('assets', 'sounds', 'Grenade+1.mp3'))
-BULLETS_FIRE_SOUND = pygame.mixer.Sound(os.path.join('assets', 'sounds', 'Gun+Silencer.mp3'))
+BULLETS_HIT_SOUND = pygame.mixer.Sound(os.path.join('assets', 'sounds', 'bullet_hit.mp3'))
+BULLETS_FIRE_SOUND = pygame.mixer.Sound(os.path.join('assets', 'sounds', 'bullet_fire.mp3'))
 
 # Fonts
 HEALTH_FONT = pygame.font.SysFont('comicsans', 40)
